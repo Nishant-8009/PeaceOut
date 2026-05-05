@@ -386,47 +386,6 @@ Thus, multi-view architectures would not generalize to leaderboard conditions.
 
 ---
 
-# 📂 Expected Dataset Structure
-
-```text
-leaf_estimation_dataset/
-    train/
-        mustard/
-        okra/
-        radish/
-        wheat/
-
-    test/
-        images/
-
-    train.csv
-    test.csv
-```
-
----
-
-# ▶️ Usage
-
-## Train
-
-```bash
-python leaf_counting_solution.py --mode train
-```
-
-## Inference
-
-```bash
-python leaf_counting_solution.py --mode infer
-```
-
-## Debug HSV Masks
-
-```bash
-python leaf_counting_final.py --debug
-```
-
----
-
 # 📈 Key Learnings
 
 ✅ Higher image resolution consistently improved performance.
